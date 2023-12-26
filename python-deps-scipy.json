@@ -1,0 +1,29 @@
+{
+    "name": "python3-deps-scipy",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=/app pythran ply gast beniget"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/2c/ab/a647b8cc3ac1aa07cde06875157696e4522958fb8363474bce21c302d4d8/pythran-0.14.0.tar.gz",
+            "sha512": "48f76605175f89d27d5d5878cd76c5d7f3096d002c5ca163b556c5b12b7cfac0f9dc4f839e85273000c299944ced13923797826e5983252e7bf53d8511e3ae91"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/e5/69/882ee5c9d017149285cab114ebeab373308ef0f874fcdac9beb90e0ac4da/ply-3.11.tar.gz",
+            "sha512": "37e39a4f930874933223be58a3da7f259e155b75135f1edd47069b3b40e5e96af883ebf1c8a1bbd32f914a9e92cfc12e29fec05cf61b518f46c1d37421b20008"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/14/e7/50cbac38f77eca8efd39516be6651fdb9f3c4c0fab8cf2cf05f612578737/beniget-0.4.1.tar.gz",
+            "sha512": "c002dec769b070cf02038ce232edb905b66df7095b8ff1030ecae1b3810ebae7c1b9b0c38dd1c651b27afe538f01cfff0e54145c09c8e3318963af6a7c1588eb"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/e4/41/f26f62ebef1a80148e20951a6e9ef4d0ebbe2090124bc143da26e12a934c/gast-0.5.4.tar.gz",
+            "sha512": "a288e2ecc15af2a5d50cb34979995f936e88cdaa4427f809b69015cb6ba98eaffd7ea9eff2dc61dae6f6c2d7d9c5cc6e3e9a5565bd7b1dd308cd39f56087c67d"
+        }
+    ]
+}
