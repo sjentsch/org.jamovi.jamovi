@@ -234,6 +234,8 @@
                 }
             ]
         },
+        /* needed by scipy with python 3.11 */
+        "python-deps-scipy.json",
         {
             "name": "python3-scipy",
             "buildsystem": "simple",
@@ -252,8 +254,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/scipy/scipy/releases/download/v1.6.2/scipy-1.6.2.tar.xz",
-                    "sha512": "2253f257d5c55739a47759e039602dc542bd1a068c5883fd2a80a60bc7d3e8372d467d589ae2c83b9a847d0fb76c1fb841208213297db284f142fac98dd33b8e"
+                    "url": "https://github.com/scipy/scipy/releases/download/v1.11.1/scipy-1.11.1.tar.gz",
+                    "sha512": "049c9061ccbf101e6f93e055f905616bc7775fbc51c3af99d8533aedc828c5e55d525ccd98b7299280ed706f3298975f28127de9b66809dfe198b0cc4fef466b"
                 }
             ]
         },
