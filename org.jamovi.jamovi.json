@@ -181,8 +181,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://nodejs.org/download/release/v14.18.2/node-v14.18.2.tar.xz",
-                    "sha512": "9179321e09e91ae68e8833b57fcd8e76aef11546cb9e75a95dc80480513fef46211f308138c10653a050decc687bb31d7975adb388654bc64d41be625fc2e76b"
+                    "url": "https://nodejs.org/download/release/v18.18.2/node-v18.18.2.tar.xz",
+                    "sha512": "00af3c737d735a320481d764f1c23b1348c0454f2b9700cadb10e087feb47c75e7e9344277bb3149305c3e08ff69d9b17b0da81b1b9d9e978fd830c67858ce92"
                 }
             ],
             "cleanup": [
@@ -234,6 +234,8 @@
                 }
             ]
         },
+        /* needed by scipy with python 3.11 */
+        "python-deps-scipy.json",
         {
             "name": "python3-scipy",
             "buildsystem": "simple",
@@ -252,8 +254,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/scipy/scipy/releases/download/v1.6.2/scipy-1.6.2.tar.xz",
-                    "sha512": "2253f257d5c55739a47759e039602dc542bd1a068c5883fd2a80a60bc7d3e8372d467d589ae2c83b9a847d0fb76c1fb841208213297db284f142fac98dd33b8e"
+                    "url": "https://github.com/scipy/scipy/releases/download/v1.11.1/scipy-1.11.1.tar.gz",
+                    "sha512": "049c9061ccbf101e6f93e055f905616bc7775fbc51c3af99d8533aedc828c5e55d525ccd98b7299280ed706f3298975f28127de9b66809dfe198b0cc4fef466b"
                 }
             ]
         },
